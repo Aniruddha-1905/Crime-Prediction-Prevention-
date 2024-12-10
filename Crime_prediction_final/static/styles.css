@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lora', serif;
+    background-color: #f3f4f6; /* Softer background color */
+    color: #333; /* Darker text color for better readability */
+}
+
+header {
+    background-color: #0a2540; /* Darker blue for header */
+    color: #f3f4f6; 
+    border-bottom: solid 4px #ff6347; /* Add some accent color */
+}
+
+.title {
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 68px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ff6347; /* Title in accent color */
+}
+
+.tagline {
+    margin: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-style: oblique;
+    color: #f3f4f6;
+}
+
+.section1 {
+    border-bottom: 3px solid #0a2540; /* Match with header */
+    min-height: 500px;
+    background-color: #e6ebf2; /* Light background for form section */
+}
+
+table.table1 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a2540; /* Text color adjustment */
+}
+
+td.label {
+    width: 300px;
+    height: 50px;
+    color: #0a2540;
+}
+
+td.sel {
+    width: 300px;
+    height: 50px;
+}
+
+select {
+    padding: 5px;
+    width: 220px; /* Slightly wider */
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    border: solid 2px #0a2540; /* Darker border */
+    border-radius: 8px;
+    background-color: #fff; /* White background for dropdown */
+    color: #0a2540; /* Text in dropdown */
+}
+
+.button {
+    margin: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px; /* More padding */
+    width: 220px;
+    height: 55px;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-weight: 900;
+    background-color: #ff6347; /* Accent color for buttons */
+    color: #fff;
+    border: solid 2px #ff6347;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #ff6347;
+    border: solid 2px #ff6347;
+}
+
+.prediction {
+    padding-bottom: 50px;
+    border-bottom: 3px solid #ff6347; /* Accent color for the result section */
+    background-color: #f0f4f9; /* Light background for results */
+}
+
+table.table2 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr.r1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a2540;
+}
+
+tr.r2 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #ff6347; /* Result text in accent color */
+}
+
+table.table3 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 3px solid #0a2540; /* Darker table border */
+    background-color: #fff; /* White table background */
+}
+
+td.result {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    color: #0a2540;
+}
+
+.button2 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+#about {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: #0a2540; /* Consistent dark text */
+}
+
+#introduction {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+    font-style: oblique;
+    color: #333; /* Main text in a neutral dark tone */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #f4f4f4;
+}
